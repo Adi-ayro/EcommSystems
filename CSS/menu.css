@@ -1,0 +1,167 @@
+.topnav
+{
+    text-align: right;
+    font-style: normal;
+    font-size: 45px;
+    padding-top: 1px;
+    margin-top: 0%;
+   
+}
+#left{
+    text-align: left;
+
+}
+img
+{
+    
+    width:9%;
+    height:18%;
+    margin-top: -30px;
+    position:absolute;
+    
+}
+.fresh{
+    width: 98%;
+    height: 75%;
+    background: linear-gradient(100.74deg, #80FF72 2.8%, #1ac1df 98.16%);
+    border-radius: 34px;
+    margin: 1%;
+    
+}
+
+.fresh1{
+    position: relative;
+    width: 50%;
+}
+
+.ftitle{
+    padding: 7.5%;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+}
+
+.fbtn{
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    background: #047857;
+    border-radius: 10px 25px;
+    border: none;
+    margin-left: 30%;
+    font-size: 26px;
+    color: #FFFFFF;
+    width: 37%;
+    padding: 12px 24px;
+    margin-top: 5px;
+    
+}
+
+.pr{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.products{
+    color: #ffffff;
+    width: 40%;
+    margin: 2.5% 5%;
+    height: 100%;
+    background: linear-gradient(152.09deg, #B2FEFA -5.37%, #0ED2F7 89.86%);
+    border-radius: 34px;
+}
+
+.ellipse1{
+    position: absolute;
+    width: 550px;
+    height: 500px;
+    left: 800px;
+    top: 10px;
+    border-radius: 70%;
+    background-color: white; 
+}
+
+
+h1
+{
+    text-align: center;
+}
+.books
+{
+    height:65%;
+}
+.electronics
+{
+    height:65%;
+}
+.fashion
+{
+    height:65%;
+}
+.phones
+{
+    height:65%;
+}
+.center
+{
+    margin-left: -300px;
+    margin-top: -500px;
+    width: 28%;
+    height: 50%;
+    border-radius: 65%;
+    border-width: 700px;
+
+}
+.icon
+{
+    display: absolute;
+    margin-left: 110px;
+    margin-top: 60px;
+    width: 60%;
+    height: 70%;
+    border-radius: 65%;
+    border-width: 200px;
+
+}
+.phone
+{
+    margin-left: -320px;
+    margin-top: -550px;
+    width: 28%;
+    height: 52%;
+    border-radius: 65%;
+    border-width: 700px;
+    background-color: white;
+    padding: 2%;
+
+}
+.electronicspng
+{
+    margin-left: -320px;
+    margin-top: -550px;
+    width: 28%;
+    height: 52%;
+    border-radius: 65%;
+    border-width: 700px;
+    background-color: white;
+    padding: 2%;
+
+}
+.clothes
+{
+    margin-left: -320px;
+    margin-top: -550px;
+    width: 28%;
+    height: 52%;
+    border-radius: 65%;
+    border-width: 700px;
+    background-color: white;
+    padding: 2%;
+
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }

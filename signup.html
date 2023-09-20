@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "w3-container w3-margin w3-border w3-border-teal w3-round-large w3-pale-teal w3-bottombar w3-topbar w3-leftbar w3-rightbar w3-padding">
+    <h1>Signup Form</h1>
+    <form action=" " method="post">
+        <label for="Name">Name</label><br>
+        <input type="text" name="Uname" id="Uname" class="w3-input" pattern="[A-Z]{1}-[a-z]{*}" title="FirstLetter Capital No Space" required><br>
+        <label for="PhoneNo">PhoneNo</label><br>
+        <input type="tel" name="PhoneNo" id="PhoneNo" class="w3-input" pattern="[0-9]{10}" title="Phoneno must have 10digits" required><br>
+        <label for="HouseNo">HouseNo</label><br>
+        <input type="text" name="HouseNo" id="HouseNo" class="w3-input" pattern="[A-Za-z][0-9]{*}" title="No Spaces" required><br>
+        <label for="Building">Building</label><br>
+        <input type="text" name="Building" id="Building" class="w3-input" pattern="[A-Za-z][0-9]{*}" title="No Spaces" required><br>
+        <label for="Area">Area</label><br>
+        <input type="text" name="Area" id="Area" class="w3-input" pattern="[A-Za-z][0-9]{*}" title="No Spaces" required><br>
+        <label for="City">City</label><br>
+        <input type="text" name="City" id="City" class="w3-input" pattern="[A-Za-z][0-9]{*}" title="No Spaces" required><br>
+        <label for="Zipcode">Zipcode</label><br>
+        <input type="text" name="Zipcode" id="Zipcode"  class="w3-input" pattern="[0-9]{6}" title="ZipCode must be 6digits" required><br>
+        <input type="submit" value="Submit" class = "w3-button w3-teal w3-margin w3-right">
+    </form>
+    </div>
+</body>
+</html>
