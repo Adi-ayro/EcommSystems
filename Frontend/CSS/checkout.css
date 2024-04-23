@@ -1,0 +1,64 @@
+@import url(style.css);
+
+.final{
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+
+.final h1{
+    font-family: 'Stick No Bills',sans-serif;
+    font-size: 3rem;
+    color: black;
+}
+
+.cart{
+    flex-basis: 60%;
+    padding: 1rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.user{
+    flex-basis: 40%;
+    padding: 1rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#total{
+    font-family: 'Stick No Bills',sans-serif;
+}
+
+table, td{
+    margin-left: 2.5rem;
+    border: 0.5rem solid var(--teal950);
+    font-size: 2rem;
+    padding: 0.25rem;
+    border-collapse: collapse;
+}
+
+td{
+    width: 10rem;
+    height: 5rem;
+}
+
+td:first-child{
+    width: 25rem;
+}
+
+button{
+    margin-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    background-color: var(--teal800);
+    border: 1px solid var(--teal800);
+    height: 3rem;
+    width: 12rem;
+    float: right;
+    margin-right: 1.25rem;
+    border-radius: 0.400rem;
+    color: white;
+}

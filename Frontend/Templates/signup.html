@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/CSS/signup.css">
+    </head>
+    <body>
+        <div class="login">
+            <h1>SignUp</h1>
+            <form action=" " method="post">
+                <label>Name</label><br>
+                <input type="input" name="name" pattern="[A-Z]{1}-[a-z]{*}" required>
+                <label>Age</label><br>
+                <input type="input" name="age" pattern="[0-9]{2}" required>
+                <label>Gender</label><br>
+                <select name="gender">
+                    <option value="F">F</option>
+                    <option value="M">M</option>
+                </select><br>
+                <label>Address</label><br>
+                <input type="input" name="address" required>
+                <label>Email</label><br>
+                <input type="email" name="email" required>
+                <br><label>Password</label><br>
+                <input type="password" name="pass" required>
+                <br><br><input type="submit">
+            </form>
+            <h3>Already Signed Up? <a href="index.php">Login</a></h3>
+        </div>
+    </body>
+</html>
